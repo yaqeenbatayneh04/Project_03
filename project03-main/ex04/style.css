@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #53e3f7;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: rgb(85, 95, 95);
+}
